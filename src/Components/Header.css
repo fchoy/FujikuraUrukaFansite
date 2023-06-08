@@ -1,0 +1,14 @@
+.header-navbar{
+    background-image: url("../Images/starbg.png");
+}
+
+.navbar-link.navbar-link{
+    text-decoration: underline;
+    text-decoration-color : transparent;
+    text-underline-offset: 10px;
+    transition : 0.5s; /*For transitioning from transparent to inherit on hover and back to transparent on unhover*/
+}
+
+.navbar-link:hover{
+    text-decoration-color : inherit;
+}
